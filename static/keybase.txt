@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/estyn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://estynedwards.com
+  * I am estyn (https://keybase.io/estyn) on keybase.
+  * I have a public key with fingerprint 633B FC49 C908 C6C4 E76A  B15B 677A 19B4 A927 06A3
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "633bfc49c908c6c4e76ab15b677a19b4a92706a3",
+            "host": "keybase.io",
+            "key_id": "677a19b4a92706a3",
+            "kid": "0101431f48d24c515278052eca5f4b7d63ea52da8f55e4e9735d8e957593c885597a0a",
+            "uid": "ea6b1ebe1b931bda7c0c54f35eb55a19",
+            "username": "estyn"
+        },
+        "service": {
+            "hostname": "estynedwards.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428441736,
+    "expire_in": 157680000,
+    "prev": "fa142442493791b284d7efd6e381012457190b11848b61c138542fdd8a0ba172",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIUAnicZZJdSBVBFMfXsqQLgWT40Eu1VlLddGd3Zmf2FmZGHxShPdSDRteZ2Vlb
+yt17d9drF42KvqNe4mZBFNoHlQ8FRVBWUBIRBQWFFknRB/RFJETgQ4HNSkHQMDDM
+Of//b845zL3J45VE0fyukvzQr4RS9OjukjZl3axV+ztU5tt5NdWhbhZjh+N6LSLI
+BK4XqSnVNAzmcGhxSyPc5FBgkzKAmIkxBRaD1NKxZlJDTaqb/DB2SAyjoahyfRmT
+l7Rrx5z/9ZvHEhrQADSAA4mtQ44A0jHRkC44RQ5k2DYNQZFuU+IgJKCwsIFsIiyE
+kWVwQhCyMNWoxLWN4QQ1GRBMAGYZgNkUc40j6BhIMIRkBbEwFIFHW0WsDqO8p25L
+qjKUc7mI+4/b+Dct7HYa2GEV91ulORP4kc/9LTK7KYoyqdgc5TOxul2w9B9Omrme
+LecoDTkRhK7vqSkglTxyYzCAOoEQYMNMqmJrxg1E2o0VCJtEkyt+RuQk0qFSCuW2
+DGwBJl02Fo5tCoPIsekQYWBpDAACCTMBBwZBUHdsm1CNUYB1Ne4s6/lqCskyaYtE
+hm6LR6O2QKjb+u9sKFaKEsrECePin6AkJpX+/R+nS0pGGxeeyc0s9J4KR9HHwZGj
+nW0NU5us73OntxZPqpv+uet2fWfheOv2XRf9wqXFU3Yfbxj98JEUlQzXKoXnG3+k
+W/q0mtTPvqEVL5/gkX33E/q7gdKbyaE3/b2HHzxGuULX13dOKru2cun19+ae2enS
+qsaBikMnb5aXf6lsOjs1WTHSY/Re6XvSET6csXRC9RCpW4bIyBo1WHyqebQxTDi8
+v6LrZNnl1avg+leNPUrl06bMrnknztd8Orhxb/OOGwNnl3+beO3Z4IJsfXZlXbmL
+D3RvbQY1tcM7s/ei4aYjG7zhOfxY7bQ3r6/mXyg9+9WyBefKFnHcEHXfan9bvbZm
+8MJvsfEepQ==
+=dQJz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/estyn
+
+==================================================================
