@@ -1,0 +1,35 @@
+  {{ partial "head.html" . }}
+<body>
+
+	<header>
+		{{ partial "header.html" . }}
+	</header>
+
+
+
+	<div class="grid-wrapper">
+		<div class="grid grid-center">
+
+			<div class="grid__item two-thirds lap-one-whole palm-one-whole">
+				{{ range .Paginator.Pages }} {{ .Render "li" }} {{ end }} {{ partial "pagination.html" . }}
+			</div>
+			<aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+				{{ partial "sidebar.html" . }}
+			</aside>
+
+		</div>
+	</div>
+	{{ partial "disqus.html" . }}
+	<footer>
+		{{ partial "footer.html" . }}
+	</footer>
+
+	<!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+	{{ partial "scripts.html" . }}
+
+</body>
+
+</html>

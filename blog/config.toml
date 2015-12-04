@@ -1,0 +1,12 @@
+baseURL = "http://estynedwards.com/"
+languageCode = "en-us"
+title = "Estyn's Blog"
+contentdir= "content"
+layoutdir = "layouts"
+publishdir ="public"
+disqusShortname = "estyn"
+twitter_name= "estynedwards"
+author = "Estyn Edwards"
+[taxonomies]
+  tag = "tags"
+  category = "categories"

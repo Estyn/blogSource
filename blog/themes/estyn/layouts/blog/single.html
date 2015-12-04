@@ -1,0 +1,58 @@
+
+  {{ partial "head.html" . }}
+<body>
+
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+
+
+
+  <div class="grid-wrapper">
+    <div class="grid grid-center">
+
+      <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+
+        <article class="post">
+          <header>
+
+            <h1 class="title indent"> {{ .Title }}</h1>
+            <div class="meta clearfix">
+              <time class="pull-left" datetime="2014-01-15T07:33:19+00:00" pubdate="" data-updated="true"><i class="icon-calendar"></i> {{.Date.Format "Mon Jan 2, 2006"}}</time>
+
+              <div class="pull-left">
+                <i class="icon-tags"></i>
+                <ul class="tags unstyled">
+                   {{ with.Params.categories }}
+                    <i class="fa fa-tag"></i>
+                    {{range $tag:= .}}
+                        <li><a href="/categories/{{$tag}}/">{{$tag}}</a></li>
+                    {{end}}
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </header>
+          {{ .Content }}
+        </article>
+      </div>
+      <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+        {{ partial "sidebar.html" . }}
+      </aside>
+
+    </div>
+  </div>
+{{ partial "disqus.html" . }}  
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+
+  <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+  {{ partial "scripts.html" . }}
+
+</body>
+
+</html>

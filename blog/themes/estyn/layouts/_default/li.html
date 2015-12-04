@@ -1,0 +1,25 @@
+<article class="listing">
+    <header>
+        <h1 class="beta">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+        <div class="meta clearfix">
+            <time class="pull-left" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00 " | safeHTML }}" pubdate="" data-updated="true"><i class="icon-calendar"></i> {{ .Date.Format "Jan 2, 2006" }}</time>
+            <div class="pull-left" style="width: 500px;">
+                <i class="icon-tags"></i>
+                <ul class="tags unstyled">
+
+                    {{ with.Params.categories }}
+                    <i class="fa fa-tag"></i> {{range $tag:= .}}
+                    <li><a href="/categories/{{$tag}}/">{{$tag}}</a></li>
+                    {{end}} {{ end }}
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="entry-content clearfix">
+        {{ .Summary }}
+        <a class="btn pull-right" href="{{ .Permalink }}">Read on →</a>
+    </div>
+</article>
+<hr/>
