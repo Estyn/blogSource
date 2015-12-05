@@ -1,5 +1,4 @@
-
-  {{ partial "head.html" . }}
+{{partial "head.html"}}
 <body>
 
   <header>
@@ -23,16 +22,21 @@
               <div class="pull-left">
                 <i class="icon-tags"></i>
                 <ul class="tags unstyled">
-                   {{ with.Params.categories }}
-                    <i class="fa fa-tag"></i>
-                    {{range $tag:= .}}
-                        <li><a href="/categories/{{$tag}}/">{{$tag}}</a></li>
-                    {{end}}
-                  {{ end }}
+                  {{ with.Params.categories }}
+                  <i class="fa fa-tag"></i> {{range $tag:= .}}
+                  <li><a href="/categories/{{$tag}}/">{{$tag}}</a></li>
+                  {{end}} {{ end }}
                 </ul>
               </div>
             </div>
           </header>
+          
+  {{ partial "scripts.html" . }}
+asds
+{{range .Site.Params}}
+{{ . }}
+{{end}}
+          
           {{ .Content }}
         </article>
       </div>
@@ -42,7 +46,7 @@
 
     </div>
   </div>
-{{ partial "disqus.html" . }}  
+  {{ partial "disqus.html" . }}
   <footer>
     {{ partial "footer.html" . }}
   </footer>
@@ -50,8 +54,6 @@
   <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-
-  {{ partial "scripts.html" . }}
 
 </body>
 
