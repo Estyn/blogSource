@@ -4,6 +4,7 @@ title = "Estyn's Blog"
 contentdir= "content"
 layoutdir = "layouts"
 publishdir ="public"
+pygmentsUseClasses = true
 [params]
   disqusShortname = "estyn"
   disqus_short_name = "estyn"
