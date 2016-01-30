@@ -2,7 +2,7 @@
 date : "2016-01-30"
 title : "Using IdentityServer 4 with ServiceStack and Angular"
 comments: true
-categories: [Angluar ServiceStack]
+categories: [Angluar, ServiceStack]
 tags: [test]
 keywords: "Angular, ServiceStack, Identity Server 4,Open Id Connect,AuthProvider" 
 ---

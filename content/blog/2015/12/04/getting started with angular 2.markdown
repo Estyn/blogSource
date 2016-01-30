@@ -2,7 +2,7 @@
 title: "Using a JQuery Plugin in Angular 2"
 date: 2015-12-04
 comments: true
-categories: [Angluar 2]
+categories: [Angluar]
 tags: [test]
 keywords: "JQuery, Angular 2, Plugin, Directive"  
 
