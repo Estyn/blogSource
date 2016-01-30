@@ -400,5 +400,5 @@ Then we create the page that will handle the call back from identity server it w
 
 
 
-The full code is available on github.  
+The full code is available on [github](https://github.com/Estyn/ServiceStackJWT).  
 
