@@ -17,7 +17,7 @@ The City of Edmonton has removed all the parking meters and replaced them with a
 # Login Screen
 Login screens are very common in both mobile and web applications and the layout of a login screen is fairly standard. Login screens are a solved problem, they consisting of a user name, password and login button.  EPark almost does this right, but in addition to having a login button it has a reset button and bizarrely it places the reset button first.
 
-<img src="../login.png" width=250/>
+<img src="../Login.png" width=250/>
 
 
 In fact the login button doesn't show up on many mobile devices without scrolling making the login process particularly confusing.  The reset button is completely unnecessary and I would argue that the remember username is also not needed.  Simplifying the user interface would make login in easier for users.
@@ -48,7 +48,7 @@ The license plate entry is thankfully fairly straight forward, although the smal
 
 If a vehicle is under a certain size it qualifies for a discount, unfortunately they do not say what size that is. If you try to save a vehicle with a size that is too large they display and error message, but frustratingly the error message also doesn't display the size that is required. The only way to find out what size is required is to click on the question mark next to the promotion which then popups a non-dismissible modal.
 
-<img src="../small vehicle.png" width=250/>
+<img src="../Small vehicle.png" width=250/>
 
 An additional frustration around the small vehicle discount is that the field is disabled if you have more than one license plate.  There is no indication in the UI why the field is disabled, but if you have more than one license plate you cannot edit the field.  I though the app was broken until I read the documentation.
 
@@ -62,7 +62,7 @@ This is the problem that sparked this blog post.  When I was trying to start a s
 
 After much frustration it turns out that my license plate was incorrect, not my phone number.  The error message makes no sense and was clearly not tested properly. It's particularly frustrating as the phone number is displaced right on the screen.
 
-<img src="../invalid phone number.png" width=250/>
+<img src="../Invalid phone number.png" width=250/>
 
 ### Error Messages
 
@@ -79,4 +79,4 @@ If you accidentally pinch or double-click in the UI it zooms in like a webpage. 
 
 ### Dialogs
 When you start a session the dialog message title is "startstop.html" not only is that not useful to users it is incredibly sloppy.
-<img src="../bad dialog.png" width=250/>
+<img src="../Bad dialog.png" width=250/>
