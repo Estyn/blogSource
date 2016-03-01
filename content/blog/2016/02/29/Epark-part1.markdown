@@ -79,4 +79,4 @@ If you accidentally pinch or double-click in the UI it zooms in like a webpage. 
 
 ### Dialogs
 When you start a session the dialog message title is "startstop.html" not only is that not useful to users it is incredibly sloppy.
-<img src="../Bad dialog.png" width=250/>
+<img src="../Bad Dialog.png" width=250/>
