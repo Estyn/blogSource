@@ -48,7 +48,7 @@ The license plate entry is thankfully fairly straight forward, although the smal
 
 If a vehicle is under a certain size it qualifies for a discount, unfortunately they do not say what size that is. If you try to save a vehicle with a size that is too large they display and error message, but frustratingly the error message also doesn't display the size that is required. The only way to find out what size is required is to click on the question mark next to the promotion which then popups a non-dismissible modal.
 
-<img src="../Small vehicle.png" width=250/>
+<img src="../Small Vehicle.png" width=250/>
 
 An additional frustration around the small vehicle discount is that the field is disabled if you have more than one license plate.  There is no indication in the UI why the field is disabled, but if you have more than one license plate you cannot edit the field.  I though the app was broken until I read the documentation.
 
@@ -78,5 +78,5 @@ If an account has only one mobile number and license plate then we can stream li
 If you accidentally pinch or double-click in the UI it zooms in like a webpage. It is quite confusing and serves no purpose.  This can (and should) be disabled in mobile apps that are acting as native apps.
 
 ### Dialogs
-When you start a session the dialog message title is "startstop.html" not only is that not useful to users it is incredibly sloppy.
+When you start a session the dialog message title is "startstop.html" not only is that not useful to users it is incredibly sloppy.<br/>
 <img src="../Bad Dialog.png" width=250/>
