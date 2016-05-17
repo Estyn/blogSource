@@ -11,7 +11,7 @@ I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It w
 
 <!--more-->
 
-# Key Take aways
+# Key Take Aways
 - Angular 2 is going to be fast 
  - The RC file size has been reduced from 170k to 50k.  
  - Angular CLI will support pre-compilation of templates which will help with both file size and time to initial load.
