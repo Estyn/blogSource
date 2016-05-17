@@ -21,17 +21,12 @@ I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It w
  - Angular 2 change detection is fast!
  
 - Angular 2 is going to be everywhere
-
  - Technologies like ionic and native script will allow angular 2 to run on mobile devices
- 
  - Mobile.angular.io  provides tooling for better progressive web applications
- 
  - Angular Universal will allow angular to run on the server 
- 
  - Desktop apps can be created with Electron and Angular 2
   
 - Angular 2 is going to have a huge ecosystem
-
  - Angular Material is going to provide a rich UI component suite
  - 3rd Party components are coming ([Wijimo](http://wijmo.com/angular2/), [Vaadin](https://vaadin.com/vaadin-documentation-portlet/elements/integrations/angular2.html), [Kendo](http://demos.telerik.com/kendo-ui/integration/angular2), [Ng-bootstrap](https://github.com/ng-bootstrap/core) and others)
  
