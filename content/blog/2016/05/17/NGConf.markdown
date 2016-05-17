@@ -13,7 +13,6 @@ I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It w
 
 # Key Take aways
 - Angular 2 is going to be fast 
-
  - The RC file size has been reduced from 170k to 50k.  
  - Angular CLI will support pre-compilation of templates which will help with both file size and time to initial load.
  - Lazy loading on routes will further help with load times
@@ -21,14 +20,12 @@ I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It w
  - Angular 2 change detection is fast!
  
 - Angular 2 is going to be everywhere
-
  - Technologies like ionic and native script will allow angular 2 to run on mobile devices
  - Mobile.angular.io  provides tooling for better progressive web applications
  - Angular Universal will allow angular to run on the server 
  - Desktop apps can be created with Electron and Angular 2
   
 - Angular 2 is going to have a huge ecosystem
-
  - Angular Material is going to provide a rich UI component suite
  - 3rd Party components are coming ([Wijimo](http://wijmo.com/angular2/), [Vaadin](https://vaadin.com/vaadin-documentation-portlet/elements/integrations/angular2.html), [Kendo](http://demos.telerik.com/kendo-ui/integration/angular2), [Ng-bootstrap](https://github.com/ng-bootstrap/core) and others)
  
