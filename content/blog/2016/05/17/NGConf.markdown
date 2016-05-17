@@ -23,8 +23,11 @@ I was lucky enough to get a ticket to ng-cong in Salt Lake City this year.  It w
 - Angular 2 is going to be everywhere
 
  - Technologies like ionic and native script will allow angular 2 to run on mobile devices
+ 
  - Mobile.angular.io  provides tooling for better progressive web applications
+ 
  - Angular Universal will allow angular to run on the server 
+ 
  - Desktop apps can be created with Electron and Angular 2
   
 - Angular 2 is going to have a huge ecosystem
